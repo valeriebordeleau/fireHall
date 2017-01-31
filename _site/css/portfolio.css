@@ -1780,6 +1780,68 @@ a:focus {
 	top: 0em;
 }
 
+/* Pannel */
+
+.pannel{
+    height: 45em;
+}
+
+.pannel h6{
+    padding-top: 6em;
+    padding-left: 2.6em;
+    padding-right: 2.6em;
+}
+
+.pannel p{
+   padding-left: 2.6em;
+   padding-right: 2.6em; 
+}
+
+.pannel h7{
+    padding-left: 2.6em;
+    padding-right: 2.6em; 
+    padding-bottom: 8em;
+}
+
+
+.red-pannel {
+    background-color:rgba(193, 39, 50, 1);
+    color: #f1f1f1;
+}
+
+.red-pannel p {
+    opacity: .7;
+}
+
+.lt-pannel {
+    background-color:#e8e8e8;
+    color: #2a2829;
+}
+
+.lt-pannel h6 {
+    color: rgba(193, 39, 50, 1);
+}
+
+.ltG-pannel {
+    background-color:#423f41;
+    color: #f1f1f1;
+}
+
+.dkG-pannel {
+    background-color:#2a2829;
+    color: #f1f1f1;
+}
+
+.white-pannel {
+    background-color:#f1f1f1;
+    color: #2a2829;
+}
+
+.white-pannel h6 {
+    color: rgba(193, 39, 50, 1);
+}
+
+
 /* Banner */ 
 
 .banner-padding{
@@ -1888,6 +1950,10 @@ a:focus {
     display: none;  
 }
 
+.only-m-l-2 {
+    display: none;
+}
+
 .toggle-label {
     cursor: pointer;
 }
@@ -1960,7 +2026,7 @@ a:focus {
     color:#f1f1f1;
     list-style-type: none;
     margin: 0;
-    font-size: 0.8889rem;
+    font-size: 0.8rem;
     line-height: 1.4625;
     padding-left: 0px;
     padding-right: 0px;
@@ -2081,9 +2147,18 @@ a:focus {
 
 /* Section Styles */
 
+.image-1{
+    background-image: url(../../artwork/alarm.jpg);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat:repeat;
+    height: 28em;
+}
+
 .section{
     padding-bottom: 8em;
     padding-top: 8em;
+    height: 28em;
 }
 
 .section-img{
@@ -2440,6 +2515,46 @@ height: 30em;
 
 /*large*/@media only screen and (min-width: 60em) {
 
+/*nav */
+    
+.title{
+   font-size: 1.em;     
+}
+    
+.nav-t-item {
+    font-size: 1rem;
+}
+    
+    
+/*pannel*/    
+    
+.pannel{
+    height: 30em;
+}
+
+.pannel h6{
+    padding-top: 8em;
+    padding-left: 2.6em;
+    padding-right: 2.6em;
+}
+
+.pannel p{
+   padding-left: 2.8em;
+   padding-right: 2.6em; 
+}
+
+.pannel h7{
+    padding-left: 2.6em;
+   padding-right: 2.6em; 
+    padding-bottom: 8em;
+}
+
+.pannel img{
+    height: 30em;
+}    
+
+/*sectionFp*/      
+    
 .section{
     padding-left: 2.6em;
     padding-right: 2.6em;
@@ -2451,7 +2566,11 @@ height: 30em;
     
 .only-m-l {
     display: block;  
-}     
+}  
+    
+.only-m-l-2 {
+    display: block;  
+} 
     
 /*banner*/
 .badge {
@@ -2526,6 +2645,7 @@ height: 30em;
 }
 
 /*x.5large*/@media only screen and (min-width: 75em){
+    
     .p-s-colour-pad{
         padding-top: 8em;
     }
@@ -2533,7 +2653,11 @@ height: 30em;
 }
     
 /*xlarge*/@media only screen and (min-width: 90em) { 
-.island-l {
+    .only-m-l-2 {
+    display: none;  
+}
+    
+    .island-l {
   padding: 2.5rem;
 }    
     
