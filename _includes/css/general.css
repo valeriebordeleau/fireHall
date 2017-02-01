@@ -797,10 +797,6 @@ height: 30em;
    font-size: 1.em;     
 }
     
-.nav-t-item {
-    font-size: .8rem;
-}
-    
     
 /*pannel*/    
     
@@ -875,6 +871,10 @@ height: 30em;
 }
 
 /*x.5large*/@media only screen and (min-width: 75em){
+    
+    .nav-t-item {
+    font-size: 1rem;
+}
     
     .p-s-colour-pad{
         padding-top: 8em;
