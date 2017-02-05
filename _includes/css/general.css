@@ -672,6 +672,7 @@ a:focus {
     font-style: normal;
     font-size: 1em;
     line-height: 1.4em;
+    letter-spacing: 1px;
 }
 
 .footer-address {
@@ -679,6 +680,7 @@ a:focus {
     color: #f1f1f1;
     font-style: normal; 
     line-height: 1.4em;
+    letter-spacing: 1px;
 }
 
 .copyrights {
@@ -688,19 +690,6 @@ a:focus {
     padding-top: 5em;
 }
 
-
-/* PROJECT STYLES */
-
-
-.p-ee-img {
-    height: 20em;
-    background-color: #58595B; 
-    background-position: bottom center;
-    background-size: 2em;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;   
-}
 
 @media only screen and (min-width: 22em) {
        
@@ -884,13 +873,13 @@ height: 30em;
 }
     
 /*xlarge*/@media only screen and (min-width: 95em) { 
+    .pannel {
+        padding-top: 2em;
+    }
+    
     .pannel-height {
         line-height: 1.2em;  
 }   
-    
-    .red-pannel {
-        background-color: #b1222c;
-    }
     
     
     .pannel-xl {
